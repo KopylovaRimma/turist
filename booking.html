@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Бронирование</title>
+    <link rel="stylesheet" href="styles/booking.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="Media/logo (2)-PhotoRoom.png" alt="" width="100" height="100">
+        <div class="menu">
+            <a href="index.html">Главная</a>
+            <a href="search.html">Поиск маршрутов</a>
+            <a href="seat.html">Выбор зон</a>
+            <a href="booking.html">Бронирование</a>
+        </div>
+    </header>
+    <main>
+        <div class="main">
+            <div class="booking">
+                <h1>Данные о заказе</h1>
+                <div class="booking_info">
+                    <div class="booking_text">
+                        <h2>Регион: </h2>
+                        <h2>Наименование маршрута: </h2>
+                        <h2>Зоны для посещения: </h2>
+                        <h2>Даты похода: </h2>
+                        <h2>Количество человек: </h2>
+                        <h2>Стоимость: </h2>
+                    </div>
+                    <img src="Media\image 1.png" alt="">
+                </div>
+            </div>
+            <div class="dop">
+                <form action="handler.php">
+                    <h1>Дополнительные услуги</h1>
+                    <p><input type="checkbox" name="a" value="1417" checked> Услуги проводника</p>
+                    <p><input type="checkbox" name="a" value="1680"> Услуги оренды туристического оборудования</p>
+                    <p><input type="checkbox" name="a" value="1883"> Услуги фотографа/видеооператора</p>
+                    <p><input type="checkbox" name="a" value="1934" checked> Страхование от несчастных случаев</p>
+                   </form>
+                   <div class="dop_info">
+                    <input type="text" placeholder="Введите дополнительные комментарии">
+                    <input type="email" placeholder="mail@mail.ru">
+                    <h2>Итоговая стоимость: ₽</h2>
+                    <button>Оформить бронирование</button>
+                   </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <h1>Телефон: 8 (800) 555-33-10</h1>
+        <div class="footer_info">
+            <a href="index.html">Главная</a>
+            <a href="search.html">Поиск маршрутов</a>
+            <a href="seat.html">Выбор зон</a>
+            <a href="booking.html">Бронирование</a>
+        </div>
+        
+    </footer>
+</body>
+</html>

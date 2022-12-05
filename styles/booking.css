@@ -1,0 +1,104 @@
+body {
+    width: 1000px;
+    margin: 0 auto;
+  }
+  
+header {
+    height: 100px;
+    background-color: #85A2DA;
+    display: flex;
+}
+.menu{
+    display: flex;
+    font-size: 20px;
+    margin: auto;
+    justify-content: space-between;
+    width: 700px;
+    
+}
+.menu a{
+text-decoration: none;
+color: white;
+}
+
+footer {
+    background-color: #85A2DA;
+    color: white;
+    height: 100px;
+}
+
+footer h1 {
+text-align: center;
+}
+
+.footer_info {
+display: flex;
+font-size: 20px;
+margin: auto;
+justify-content: space-between;
+width: 700px;
+
+}
+
+.footer_info a {
+text-decoration: none;
+color: white;
+}
+
+
+.booking_info{
+    display: flex;
+    width: 900px;
+    height: 300px;
+}
+
+.booking h1{
+    text-align: center;
+}
+
+.booking_text{
+    width: 450px;
+    margin-left: 50px;
+}
+
+.booking_info img{
+    width: 450px;
+}
+
+.main{
+    color: white;
+    background-color: #85A2DA;
+    width: 1000px;
+    height: 970px;
+}
+
+.dop {
+    margin-left: 50px;
+}
+
+.dop p {
+    font-size: 20px;
+}
+
+.dop_info input {
+    width: 500px;
+    height: 60px;
+    background-color: #D9D9D9;
+    color: #5E5E5E;
+    border: 0;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.dop_info h2 {
+    font-size: 40px;
+}
+
+.dop_info button {
+    border: 0;
+    background-color: #E20000;
+    color: white;
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+}
